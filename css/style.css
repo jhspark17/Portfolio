@@ -845,3 +845,8 @@ a:before, a:after {
   width: 200px;
   height: 200px;
 }
+
+.nav-right{
+  float: right;
+  margin-top: 10px;
+}

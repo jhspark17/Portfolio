@@ -1586,6 +1586,8 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  display: flex;
+  justify-content: space-between;
 }
 @media (min-width: 768px) {
   .container {
@@ -4168,6 +4170,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
+  display: flex;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -4177,6 +4180,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
+    
   }
 }
 .navbar-collapse {
@@ -4349,6 +4353,13 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   .navbar-nav .open .dropdown-menu > li > a:hover,
   .navbar-nav .open .dropdown-menu > li > a:focus {
     background-image: none;
+  }
+
+  .nav-right{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+  
   }
 }
 @media (min-width: 768px) {
