@@ -13,7 +13,8 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Raleway:400,300,700" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+<script src="https://code.iconify.design/1/1.0.0/iconify.min.js"></script>
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -43,7 +44,7 @@
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span style="font-size:30px; color:#1abc9c;">
-            <i class="fas fa-handshake"></i>
+            <i class="fas fa-handshake"></i></span>
           </button>
           <a class="navbar-brand hidden-xs hidden-sm smoothscroll" href="#home"><span style="font-size:18px; color:#1abc9c;"><i class="fas fa-handshake"></i></span></a>
         </div>
@@ -322,58 +323,33 @@
   </div>
   <!-- /container -->
 
-
-  <!-- ==== SERVICES ==== -->
   
 
   <!-- ==== TEAM MEMBERS ==== -->
-  <div class="container" id="team" name="team">
+  <div class="icon-container" id="team" name="team">
     <br>
     <div class="row white centered">
       <h1 class="centered">Skills</h1>
       <hr>
-      <br>
-      <br>
-      <div class="col-lg-3 centered">
-        <img class="img img-circle" src="img/team/team01.jpg" height="120px" width="120px" alt="">
-        <br>
-        <h4><b>Mike Arney</b></h4>
-        <a href="#" class="icon icon-twitter"></a>
-        <a href="#" class="icon icon-facebook"></a>
-        <p>Mike combines an expert technical knowledge with a real eye for design. Working with clients from a wide range of industries, he fully understands client objectives when working on a project, large or small.</p>
-      </div>
-      <!-- col-lg-3 -->
-
-      <div class="col-lg-3 centered">
-        <img class="img img-circle" src="img/team/team02.jpg" height="120px" width="120px" alt="">
-        <br>
-        <h4><b>Tim Davies</b></h4>
-        <a href="#" class="icon icon-twitter"></a>
-        <a href="#" class="icon icon-facebook"></a>
-        <p>Tim is an experienced marcoms practitioner and manages projects from inception to delivery. He understands the synergy between great design and commercial effectiveness which shines through on every project.</p>
-      </div>
-      <!-- col-lg-3 -->
-
-      <div class="col-lg-3 centered">
-        <img class="img img-circle" src="img/team/team03.jpg" height="120px" width="120px" alt="">
-        <br>
-        <h4><b>Michele Lampa</b></h4>
-        <a href="#" class="icon icon-twitter"></a>
-        <a href="#" class="icon icon-facebook"></a>
-        <p>Be a creative director is a hard task, but Michele loves what she does. Her combination of knowledge and expertise is an important pillar in our agency.</p>
-      </div>
-      <!-- col-lg-3 -->
-
-      <div class="col-lg-3 centered">
-        <img class="img img-circle" src="img/team/team04.jpg" height="120px" width="120px" alt="">
-        <br>
-        <h4><b>Jaye Smith</b></h4>
-        <a href="#" class="icon icon-twitter"></a>
-        <a href="#" class="icon icon-facebook"></a>
-        <p>Jaye began making websites when animated logos and scrolling text were cool, but has since found a love for simplicity, creating websites that are a pleasure to browse. Monkey Island Fan.</p>
-      </div>
-      <!-- col-lg-3 -->
-
+      <ul class="skill-icon-container">
+        <i class="devicon-react-original-wordmark colored skill-icon"></i>
+        <i class="devicon-javascript-plain colored skill-icon"></i>
+        <i class="devicon-nodejs-plain colored skill-icon"></i>
+        <i class="devicon-express-original-wordmark colored skill-icon"></i>
+      </ul>
+      
+      <ul class="skill-icon-container middle">
+        <i class="devicon-ruby-plain-wordmark colored skill-icon"></i>
+       <i class="devicon-rails-plain-wordmark colored skill-icon"></i>
+       <i class="devicon-html5-plain-wordmark colored skill-icon"></i>
+      <i class="devicon-css3-plain-wordmark colored skill-icon"></i>
+      </ul>
+      <ul class="skill-icon-container">
+        <i class="devicon-mongodb-plain-wordmark colored skill-icon"></i>
+        <span class="iconify skill-icon" data-icon="simple-icons:redux" data-inline="false"></span>
+        <i class="devicon-d3js-plain colored skill-icon"></i>
+        <i class="devicon-git-plain colored skill-icon"></i>
+      </ul>
     </div>
     <!-- row -->
   </div>
@@ -396,32 +372,6 @@
       <br>
       <br>
 
-      <div class="col-lg-4">
-        <h3>Newsletter</h3>
-        <p>Register to our newsletter and be updated with the latests information regarding our services, offers and much more.</p>
-        <p>
-          <form class="form-horizontal" role="form">
-            <div class="form-group">
-              <label for="inputEmail1" class="col-lg-4 control-label"></label>
-              <div class="col-lg-10">
-                <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
-              </div>
-            </div>
-            <div class="form-group">
-              <label for="text1" class="col-lg-4 control-label"></label>
-              <div class="col-lg-10">
-                <input type="text" class="form-control" id="text1" placeholder="Your Name">
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="col-lg-10">
-                <button type="submit" class="btn btn-success">Sign in</button>
-              </div>
-            </div>
-          </form>
-          <!-- form -->
-        </p>
-      </div>
 
       <div class="col-lg-3">
         <h3>Contact Information</h3>
@@ -435,39 +385,6 @@
       </div>
       <!-- col -->
 
-      <div class="col-lg-5">
-        <h3>Contact Form</h3>
-        <form class="contact-form php-mail-form" role="form" action="contactform/contactform.php" method="POST">
-
-          <div class="form-group">
-            <input type="name" name="name" class="form-control" id="contact-name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" >
-            <div class="validate"></div>
-          </div>
-          <div class="form-group">
-            <input type="email" name="email" class="form-control" id="contact-email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-            <div class="validate"></div>
-          </div>
-          <div class="form-group">
-            <input type="text" name="subject" class="form-control" id="contact-subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject">
-            <div class="validate"></div>
-          </div>
-
-          <div class="form-group">
-            <textarea class="form-control" name="message" id="contact-message" placeholder="Your Message" rows="5" data-rule="required" data-msg="Please write something for us"></textarea>
-            <div class="validate"></div>
-          </div>
-
-          <div class="loading"></div>
-          <div class="error-message"></div>
-          <div class="sent-message">Your message has been sent. Thank you!</div>
-
-          <div class="form-send">
-            <button type="submit" class="btn btn-large">Send Message</button>
-          </div>
-
-        </form>
-      </div>
-      <!-- col -->
 
     </div>
     <!-- row -->

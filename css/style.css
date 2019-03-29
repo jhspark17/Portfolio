@@ -260,7 +260,7 @@ a:before, a:after {
    ========================================================================== */
 
 #headerwrap {
-  background: url("../img/nature-globe.jpg") no-repeat center top;
+  background: url("../img/background.jpg") no-repeat center top;
   margin-top: -50px;
   padding-top: 120px;
   text-align: center;
@@ -280,7 +280,7 @@ a:before, a:after {
 }
 
 #headerwrap img {
-  margin-top: 90px;
+  margin-top: 120px;
   margin-bottom: 30px;
 }
 
@@ -292,6 +292,7 @@ a:before, a:after {
   line-height: 40px;
   letter-spacing: 3px;
   margin-left: 15px;
+  
   text-shadow: 1px 1px 1px #000;
 }
 
@@ -849,4 +850,24 @@ a:before, a:after {
 .nav-right{
   float: right;
   margin-top: 10px;
+}
+.skill-icon-container{
+  width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+.skill-icon{
+  font-size: 84px;
+  margin-top: 10px;
+}
+
+.js{
+  color: yellow;
+}
+
+.middle{
+  margin-top: 40px;
+  margin-bottom:40px;
 }
