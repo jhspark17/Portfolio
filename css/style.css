@@ -859,7 +859,7 @@ a:before, a:after {
   padding: 0;
 }
 .skill-icon{
-  font-size: 84px;
+  font-size: 64px;
   margin-top: 10px;
 }
 
@@ -871,3 +871,23 @@ a:before, a:after {
   margin-top: 40px;
   margin-bottom:40px;
 }
+
+.contact-container{
+  display: flex;
+  justify-content: center;
+}
+
+.col-lg-3{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.contain{
+  width: 50%;
+  margin: 0 auto;
+}
+
+
+
+
